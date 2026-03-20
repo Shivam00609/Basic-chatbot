@@ -23,5 +23,5 @@ def chatbot():
                 found = True
                 break
             if not found:
-                print("Chatbot:"random.choice(default_response))
+                print("Chatbot:",random.choice(default_response))
 chatbot()
